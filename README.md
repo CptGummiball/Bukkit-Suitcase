@@ -37,6 +37,15 @@ BukkitSuitcase is a collection of lightweight, single-purpose plugins for Spigot
 - **Compatibility**: Spigot and Paper, Minecraft 1.19+
 - **Setup**: Works automatically upon installation; suitable for mob farms to keep the game quieter.
 
+### 5. CreativeItemTagger
+
+**CreativeItemTagger** automatically adds a "Creative-Item" tag to the lore of any item taken from the Creative inventory. This makes it easier for admins and players to identify items that originate directly from Creative mode.
+
+- **Function**: Automatically adds the lore tag "Creative-Item" in gray text to all items taken from the Creative inventory.
+- **Compatibility**: Spigot and Paper, Minecraft 1.19+
+- **Setup**: No configuration needed; the plugin works automatically upon installation.
+- **Use Case**: Ideal for servers that want to keep track of the origins of items and better identify Creative items.
+
 ## Installation
 
 1. Download the `.jar` files for the plugins you want to use.
