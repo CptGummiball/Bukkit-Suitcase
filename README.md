@@ -20,6 +20,23 @@ BukkitSuitcase is a collection of lightweight, single-purpose plugins for Spigot
 - **Compatibility**: Spigot and Paper, Minecraft 1.19+
 - **Setup**: Works automatically upon installation.
 
+### 3. AutoTorchPlacement
+
+**AutoTorchPlacement** automatically places a torch from the player’s inventory when they enter a dark area. Players can enable or disable this feature individually via a command.
+
+- **Function**: When the light level around the player falls below a set threshold, a torch is automatically placed from the player’s inventory.
+- **Command**: `/autotorch` - Toggles the auto-torch placement on or off for each player.
+- **Compatibility**: Spigot and Paper, Minecraft 1.19+
+- **Setup**: No configuration is needed; players can control it for themselves with the command.
+
+### 4. SilentMobs
+
+**SilentMobs** suppresses the sounds of hostile mobs when they spawn in high-density areas, such as mob farms, to reduce noise. Normal mob sounds remain active in areas with fewer mobs.
+
+- **Function**: If more than a certain number of mobs (e.g., 10) are detected in a small radius, new mobs spawning there will be silent.
+- **Compatibility**: Spigot and Paper, Minecraft 1.19+
+- **Setup**: Works automatically upon installation; suitable for mob farms to keep the game quieter.
+
 ## Installation
 
 1. Download the `.jar` files for the plugins you want to use.
